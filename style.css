@@ -1,0 +1,20 @@
+body { font-family: 'Cairo', sans-serif; direction: rtl; text-align: right; background-color: #0a0a0a; color: #ffffff; line-height: 1.6; transition: background 0.3s ease, color 0.3s ease; }
+
+.dark-theme { background-color: #ffffff; color: #000000; }
+
+header { background: linear-gradient(135deg, #0a0a0a, #1e3a8a); color: white; padding: 20px 0; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+header h1 { font-size: 2.5rem; margin-bottom: 10px; color: #00bcd4; }
+
+header img { width: 100%; max-width: 300px; height: auto; border-radius: 10px; margin-top: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+#theme-toggle { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: white; }
+
+main { padding: 20px; max-width: 800px; margin: 0 auto; }
+
+section { background: #1e1e1e; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background 0.3s ease; }
+
+.dark-theme section { background: #f0f0f0; }
+
+#quran-text { font-size: 16px; transition: font-size 0.3s ease; }
+

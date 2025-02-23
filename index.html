@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ختم القرآن في رمضان</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ختم القرآن في رمضان</h1>
+        <img src="quran.jpg" alt="صورة القرآن">
+        <button id="theme-toggle">🌙</button>
+    </header>
+    <main>
+        <section id="tracker">
+            <h2>تتبع الحزب</h2>
+            <form id="tracker-form">
+                <label for="username">اسم المستخدم:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="part">الحزب الذي وصلت إليه:</label>
+                <input type="number" id="part" name="part" min="1" max="60" required>
+                <button type="submit">حفظ</button>
+            </form>
+        </section>
+        <section id="progress">
+            <h2>تقدمك</h2>
+            <p>الحزب الأخير الذي وصلت إليه: <span id="last-part">0</span></p>
+            <p>الوقت المتبقي لإنهاء الختمة: <span id="countdown">30 يوم</span></p>
+        </section>
+        <section id="quran-reader">
+            <h2>القرآن الكريم</h2>
+            <div id="controls">
+                <label for="surah">اختر السورة:</label>
+                <select id="surah"></select>
+                <button id="increase-font">A+</button>
+                <button id="decrease-font">A-</button>
+            </div>
+            <div id="quran-text"></div>
+        </section>
+    </main>
+    <footer>
+        <p>تواصل معنا: <a href="contact.html">هنا</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
